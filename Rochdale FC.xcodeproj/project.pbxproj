@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63621468EF80030CB4B /* AppDelegate.swift */; };
+		21AEB63921468EF80030CB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63821468EF80030CB4B /* ViewController.swift */; };
+		21AEB63C21468EF80030CB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63A21468EF80030CB4B /* Main.storyboard */; };
+		21AEB63E21468F060030CB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63D21468F060030CB4B /* Assets.xcassets */; };
+		21AEB64121468F070030CB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */; };
+		21AEB64C21468F080030CB4B /* Rochdale_FCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */; };
+		21AEB65721468F080030CB4B /* Rochdale_FCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AEB64821468F080030CB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AEB62B21468EF80030CB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AEB63221468EF80030CB4B;
+			remoteInfo = "Rochdale FC";
+		};
+		21AEB65321468F080030CB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AEB62B21468EF80030CB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AEB63221468EF80030CB4B;
+			remoteInfo = "Rochdale FC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21AEB63321468EF80030CB4B /* Rochdale FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB63621468EF80030CB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21AEB63821468EF80030CB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21AEB63B21468EF80030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21AEB63D21468F060030CB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21AEB64021468F070030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21AEB64221468F070030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCTests.swift; sourceTree = "<group>"; };
+		21AEB64D21468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCUITests.swift; sourceTree = "<group>"; };
+		21AEB65821468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21AEB63021468EF80030CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB64421468F080030CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB64F21468F080030CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AEB62A21468EF80030CB4B = {
+			isa = PBXGroup;
+			children = (
+				21AEB63521468EF80030CB4B /* Rochdale FC */,
+				21AEB64A21468F080030CB4B /* Rochdale FCTests */,
+				21AEB65521468F080030CB4B /* Rochdale FCUITests */,
+				21AEB63421468EF80030CB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21AEB63421468EF80030CB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB63321468EF80030CB4B /* Rochdale FC.app */,
+				21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */,
+				21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21AEB63521468EF80030CB4B /* Rochdale FC */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB63621468EF80030CB4B /* AppDelegate.swift */,
+				21AEB63821468EF80030CB4B /* ViewController.swift */,
+				21AEB63A21468EF80030CB4B /* Main.storyboard */,
+				21AEB63D21468F060030CB4B /* Assets.xcassets */,
+				21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */,
+				21AEB64221468F070030CB4B /* Info.plist */,
+			);
+			path = "Rochdale FC";
+			sourceTree = "<group>";
+		};
+		21AEB64A21468F080030CB4B /* Rochdale FCTests */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */,
+				21AEB64D21468F080030CB4B /* Info.plist */,
+			);
+			path = "Rochdale FCTests";
+			sourceTree = "<group>";
+		};
+		21AEB65521468F080030CB4B /* Rochdale FCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */,
+				21AEB65821468F080030CB4B /* Info.plist */,
+			);
+			path = "Rochdale FCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21AEB63221468EF80030CB4B /* Rochdale FC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FC" */;
+			buildPhases = (
+				21AEB62F21468EF80030CB4B /* Sources */,
+				21AEB63021468EF80030CB4B /* Frameworks */,
+				21AEB63121468EF80030CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rochdale FC";
+			productName = "Rochdale FC";
+			productReference = 21AEB63321468EF80030CB4B /* Rochdale FC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21AEB64621468F080030CB4B /* Rochdale FCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCTests" */;
+			buildPhases = (
+				21AEB64321468F080030CB4B /* Sources */,
+				21AEB64421468F080030CB4B /* Frameworks */,
+				21AEB64521468F080030CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AEB64921468F080030CB4B /* PBXTargetDependency */,
+			);
+			name = "Rochdale FCTests";
+			productName = "Rochdale FCTests";
+			productReference = 21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21AEB65121468F080030CB4B /* Rochdale FCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCUITests" */;
+			buildPhases = (
+				21AEB64E21468F080030CB4B /* Sources */,
+				21AEB64F21468F080030CB4B /* Frameworks */,
+				21AEB65021468F080030CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AEB65421468F080030CB4B /* PBXTargetDependency */,
+			);
+			name = "Rochdale FCUITests";
+			productName = "Rochdale FCUITests";
+			productReference = 21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21AEB62B21468EF80030CB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Rodrigo;
+				TargetAttributes = {
+					21AEB63221468EF80030CB4B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					21AEB64621468F080030CB4B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 21AEB63221468EF80030CB4B;
+					};
+					21AEB65121468F080030CB4B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 21AEB63221468EF80030CB4B;
+					};
+				};
+			};
+			buildConfigurationList = 21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21AEB62A21468EF80030CB4B;
+			productRefGroup = 21AEB63421468EF80030CB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21AEB63221468EF80030CB4B /* Rochdale FC */,
+				21AEB64621468F080030CB4B /* Rochdale FCTests */,
+				21AEB65121468F080030CB4B /* Rochdale FCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21AEB63121468EF80030CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AEB64121468F070030CB4B /* LaunchScreen.storyboard in Resources */,
+				21AEB63E21468F060030CB4B /* Assets.xcassets in Resources */,
+				21AEB63C21468EF80030CB4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB64521468F080030CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB65021468F080030CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21AEB62F21468EF80030CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AEB63921468EF80030CB4B /* ViewController.swift in Sources */,
+				21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB64321468F080030CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AEB64C21468F080030CB4B /* Rochdale_FCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AEB64E21468F080030CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AEB65721468F080030CB4B /* Rochdale_FCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AEB64921468F080030CB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AEB63221468EF80030CB4B /* Rochdale FC */;
+			targetProxy = 21AEB64821468F080030CB4B /* PBXContainerItemProxy */;
+		};
+		21AEB65421468F080030CB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AEB63221468EF80030CB4B /* Rochdale FC */;
+			targetProxy = 21AEB65321468F080030CB4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21AEB63A21468EF80030CB4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AEB63B21468EF80030CB4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AEB64021468F070030CB4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21AEB65921468F080030CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21AEB65A21468F080030CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21AEB65C21468F080030CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21AEB65D21468F080030CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21AEB65F21468F080030CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FC.app/Rochdale FC";
+			};
+			name = Debug;
+		};
+		21AEB66021468F080030CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FC.app/Rochdale FC";
+			};
+			name = Release;
+		};
+		21AEB66221468F080030CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rochdale FC";
+			};
+			name = Debug;
+		};
+		21AEB66321468F080030CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = "Rochdale FCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rochdale FC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AEB65921468F080030CB4B /* Debug */,
+				21AEB65A21468F080030CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AEB65C21468F080030CB4B /* Debug */,
+				21AEB65D21468F080030CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AEB65F21468F080030CB4B /* Debug */,
+				21AEB66021468F080030CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AEB66221468F080030CB4B /* Debug */,
+				21AEB66321468F080030CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21AEB62B21468EF80030CB4B /* Project object */;
+}
