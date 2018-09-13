@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214B08F9214AC98C006223DE /* Time_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B08F8214AC98C006223DE /* Time_VC.swift */; };
+		214B08FB214AC9A2006223DE /* Placar_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B08FA214AC9A2006223DE /* Placar_VC.swift */; };
+		214B08FD214AC9BD006223DE /* EditarTime_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B08FC214AC9BD006223DE /* EditarTime_VC.swift */; };
+		214B08FF214ACC0E006223DE /* Historico_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B08FE214ACC0E006223DE /* Historico_VC.swift */; };
+		214B0901214ACC30006223DE /* PlacarHistorico_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0900214ACC30006223DE /* PlacarHistorico_VC.swift */; };
+		214B0904214ACC5E006223DE /* Agenda_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0903214ACC5E006223DE /* Agenda_VC.swift */; };
+		214B0906214ACC73006223DE /* Evento_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0905214ACC73006223DE /* Evento_VC.swift */; };
+		214B0909214ACCCA006223DE /* Escalacao_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0908214ACCCA006223DE /* Escalacao_VC.swift */; };
+		214B090B214ACCF1006223DE /* JogadorPerfil_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */; };
 		218AB6E52148354100991296 /* Historico_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AB6E32148354100991296 /* Historico_TVC.swift */; };
 		218AB6E62148354100991296 /* Historico_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218AB6E42148354100991296 /* Historico_TVC.xib */; };
 		21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63621468EF80030CB4B /* AppDelegate.swift */; };
@@ -38,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214B08F8214AC98C006223DE /* Time_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_VC.swift; sourceTree = "<group>"; };
+		214B08FA214AC9A2006223DE /* Placar_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placar_VC.swift; sourceTree = "<group>"; };
+		214B08FC214AC9BD006223DE /* EditarTime_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarTime_VC.swift; sourceTree = "<group>"; };
+		214B08FE214ACC0E006223DE /* Historico_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico_VC.swift; sourceTree = "<group>"; };
+		214B0900214ACC30006223DE /* PlacarHistorico_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacarHistorico_VC.swift; sourceTree = "<group>"; };
+		214B0903214ACC5E006223DE /* Agenda_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda_VC.swift; sourceTree = "<group>"; };
+		214B0905214ACC73006223DE /* Evento_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento_VC.swift; sourceTree = "<group>"; };
+		214B0908214ACCCA006223DE /* Escalacao_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escalacao_VC.swift; sourceTree = "<group>"; };
+		214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogadorPerfil_VC.swift; sourceTree = "<group>"; };
 		218AB6E32148354100991296 /* Historico_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico_TVC.swift; sourceTree = "<group>"; };
 		218AB6E42148354100991296 /* Historico_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Historico_TVC.xib; sourceTree = "<group>"; };
 		21AEB63321468EF80030CB4B /* Rochdale FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +100,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214B08F0214AC8DE006223DE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB63A21468EF80030CB4B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		214B08F1214AC8E8006223DE /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				214B08F6214AC942006223DE /* Placar TVC */,
+				214B08F7214AC94D006223DE /* Historico TVC */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		214B08F2214AC8F6006223DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB63821468EF80030CB4B /* ViewController.swift */,
+				214B0902214ACC40006223DE /* Time */,
+				214B0907214ACC78006223DE /* Agenda */,
+				214B0908214ACCCA006223DE /* Escalacao_VC.swift */,
+				214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		214B08F3214AC8FF006223DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		214B08F4214AC908006223DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		214B08F6214AC942006223DE /* Placar TVC */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB6642146C26E0030CB4B /* Placar_TVC.swift */,
+				21AEB6652146C26E0030CB4B /* Placar_TVC.xib */,
+			);
+			path = "Placar TVC";
+			sourceTree = "<group>";
+		};
+		214B08F7214AC94D006223DE /* Historico TVC */ = {
+			isa = PBXGroup;
+			children = (
+				218AB6E32148354100991296 /* Historico_TVC.swift */,
+				218AB6E42148354100991296 /* Historico_TVC.xib */,
+			);
+			path = "Historico TVC";
+			sourceTree = "<group>";
+		};
+		214B0902214ACC40006223DE /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				214B08F8214AC98C006223DE /* Time_VC.swift */,
+				214B08FA214AC9A2006223DE /* Placar_VC.swift */,
+				214B08FC214AC9BD006223DE /* EditarTime_VC.swift */,
+				214B08FE214ACC0E006223DE /* Historico_VC.swift */,
+				214B0900214ACC30006223DE /* PlacarHistorico_VC.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		214B0907214ACC78006223DE /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				214B0903214ACC5E006223DE /* Agenda_VC.swift */,
+				214B0905214ACC73006223DE /* Evento_VC.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
 		21AEB62A21468EF80030CB4B = {
 			isa = PBXGroup;
 			children = (
@@ -106,12 +206,11 @@
 			isa = PBXGroup;
 			children = (
 				21AEB63621468EF80030CB4B /* AppDelegate.swift */,
-				21AEB63821468EF80030CB4B /* ViewController.swift */,
-				21AEB63A21468EF80030CB4B /* Main.storyboard */,
-				21AEB6642146C26E0030CB4B /* Placar_TVC.swift */,
-				21AEB6652146C26E0030CB4B /* Placar_TVC.xib */,
-				218AB6E32148354100991296 /* Historico_TVC.swift */,
-				218AB6E42148354100991296 /* Historico_TVC.xib */,
+				214B08F4214AC908006223DE /* Models */,
+				214B08F3214AC8FF006223DE /* Extension */,
+				214B08F2214AC8F6006223DE /* ViewControllers */,
+				214B08F1214AC8E8006223DE /* TableView Cells */,
+				214B08F0214AC8DE006223DE /* Storyboards */,
 				21AEB63D21468F060030CB4B /* Assets.xcassets */,
 				21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */,
 				21AEB64221468F070030CB4B /* Info.plist */,
@@ -271,9 +370,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AEB6662146C26E0030CB4B /* Placar_TVC.swift in Sources */,
+				214B08FF214ACC0E006223DE /* Historico_VC.swift in Sources */,
+				214B08F9214AC98C006223DE /* Time_VC.swift in Sources */,
 				21AEB63921468EF80030CB4B /* ViewController.swift in Sources */,
+				214B0904214ACC5E006223DE /* Agenda_VC.swift in Sources */,
+				214B0909214ACCCA006223DE /* Escalacao_VC.swift in Sources */,
+				214B0901214ACC30006223DE /* PlacarHistorico_VC.swift in Sources */,
+				214B0906214ACC73006223DE /* Evento_VC.swift in Sources */,
+				214B08FB214AC9A2006223DE /* Placar_VC.swift in Sources */,
 				218AB6E52148354100991296 /* Historico_TVC.swift in Sources */,
+				214B090B214ACCF1006223DE /* JogadorPerfil_VC.swift in Sources */,
 				21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */,
+				214B08FD214AC9BD006223DE /* EditarTime_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = "Rochdale FC/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = "Rochdale FC/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
