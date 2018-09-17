@@ -19,7 +19,6 @@
 		218AB6E52148354100991296 /* Historico_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AB6E32148354100991296 /* Historico_TVC.swift */; };
 		218AB6E62148354100991296 /* Historico_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218AB6E42148354100991296 /* Historico_TVC.xib */; };
 		21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63621468EF80030CB4B /* AppDelegate.swift */; };
-		21AEB63921468EF80030CB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63821468EF80030CB4B /* ViewController.swift */; };
 		21AEB63C21468EF80030CB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63A21468EF80030CB4B /* Main.storyboard */; };
 		21AEB63E21468F060030CB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63D21468F060030CB4B /* Assets.xcassets */; };
 		21AEB64121468F070030CB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */; };
@@ -27,6 +26,10 @@
 		21AEB65721468F080030CB4B /* Rochdale_FCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */; };
 		21AEB6662146C26E0030CB4B /* Placar_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB6642146C26E0030CB4B /* Placar_TVC.swift */; };
 		21AEB6672146C26E0030CB4B /* Placar_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB6652146C26E0030CB4B /* Placar_TVC.xib */; };
+		21B91056214BFED600424D24 /* PDF_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B91055214BFED600424D24 /* PDF_VC.swift */; };
+		21B91059214BFF0400424D24 /* Configuracoes_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B91058214BFF0400424D24 /* Configuracoes_VC.swift */; };
+		21B9105C214C363700424D24 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9105B214C363700424D24 /* ModelViewController.swift */; };
+		21E81F4E21501BB400F32C02 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E81F4D21501BB400F32C02 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +63,6 @@
 		218AB6E42148354100991296 /* Historico_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Historico_TVC.xib; sourceTree = "<group>"; };
 		21AEB63321468EF80030CB4B /* Rochdale FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AEB63621468EF80030CB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21AEB63821468EF80030CB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21AEB63B21468EF80030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21AEB63D21468F060030CB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21AEB64021468F070030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +75,10 @@
 		21AEB65821468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AEB6642146C26E0030CB4B /* Placar_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placar_TVC.swift; sourceTree = "<group>"; };
 		21AEB6652146C26E0030CB4B /* Placar_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Placar_TVC.xib; sourceTree = "<group>"; };
+		21B91055214BFED600424D24 /* PDF_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF_VC.swift; sourceTree = "<group>"; };
+		21B91058214BFF0400424D24 /* Configuracoes_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuracoes_VC.swift; sourceTree = "<group>"; };
+		21B9105B214C363700424D24 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		21E81F4D21501BB400F32C02 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +126,10 @@
 		214B08F2214AC8F6006223DE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				21AEB63821468EF80030CB4B /* ViewController.swift */,
 				214B0902214ACC40006223DE /* Time */,
 				214B0907214ACC78006223DE /* Agenda */,
-				214B0908214ACCCA006223DE /* Escalacao_VC.swift */,
-				214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */,
+				21B91057214BFEDC00424D24 /* Escalação */,
+				21B9105A214BFF0E00424D24 /* Configuracoes */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 		214B08F4214AC908006223DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				21B9105B214C363700424D24 /* ModelViewController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				21AEB63621468EF80030CB4B /* AppDelegate.swift */,
+				21E81F4C21501B9E00F32C02 /* Extensions */,
 				214B08F4214AC908006223DE /* Models */,
 				214B08F3214AC8FF006223DE /* Extension */,
 				214B08F2214AC8F6006223DE /* ViewControllers */,
@@ -234,6 +241,33 @@
 				21AEB65821468F080030CB4B /* Info.plist */,
 			);
 			path = "Rochdale FCUITests";
+			sourceTree = "<group>";
+		};
+		21B91057214BFEDC00424D24 /* Escalação */ = {
+			isa = PBXGroup;
+			children = (
+				214B0908214ACCCA006223DE /* Escalacao_VC.swift */,
+				214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */,
+				21B91055214BFED600424D24 /* PDF_VC.swift */,
+			);
+			name = "Escalação";
+			path = "Escalação";
+			sourceTree = "<group>";
+		};
+		21B9105A214BFF0E00424D24 /* Configuracoes */ = {
+			isa = PBXGroup;
+			children = (
+				21B91058214BFF0400424D24 /* Configuracoes_VC.swift */,
+			);
+			path = Configuracoes;
+			sourceTree = "<group>";
+		};
+		21E81F4C21501B9E00F32C02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21E81F4D21501BB400F32C02 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,14 +406,17 @@
 				21AEB6662146C26E0030CB4B /* Placar_TVC.swift in Sources */,
 				214B08FF214ACC0E006223DE /* Historico_VC.swift in Sources */,
 				214B08F9214AC98C006223DE /* Time_VC.swift in Sources */,
-				21AEB63921468EF80030CB4B /* ViewController.swift in Sources */,
+				21B91059214BFF0400424D24 /* Configuracoes_VC.swift in Sources */,
 				214B0904214ACC5E006223DE /* Agenda_VC.swift in Sources */,
 				214B0909214ACCCA006223DE /* Escalacao_VC.swift in Sources */,
 				214B0901214ACC30006223DE /* PlacarHistorico_VC.swift in Sources */,
 				214B0906214ACC73006223DE /* Evento_VC.swift in Sources */,
+				21B9105C214C363700424D24 /* ModelViewController.swift in Sources */,
 				214B08FB214AC9A2006223DE /* Placar_VC.swift in Sources */,
 				218AB6E52148354100991296 /* Historico_TVC.swift in Sources */,
+				21E81F4E21501BB400F32C02 /* Extensions.swift in Sources */,
 				214B090B214ACCF1006223DE /* JogadorPerfil_VC.swift in Sources */,
+				21B91056214BFED600424D24 /* PDF_VC.swift in Sources */,
 				21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */,
 				214B08FD214AC9BD006223DE /* EditarTime_VC.swift in Sources */,
 			);

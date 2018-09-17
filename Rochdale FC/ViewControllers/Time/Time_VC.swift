@@ -8,19 +8,54 @@
 
 import UIKit
 
-class Time_VC: UIViewController {
+class Time_VC: ModelViewController {
+
+    
+    
+    //MARK: - Outlets
+    
+    @IBOutlet weak var imgLogoTime: UIImageView!
+    
+    @IBOutlet weak var lblInformativo1: UILabel!
+    @IBOutlet weak var lblDescritivo1: UILabel!
+    @IBOutlet weak var lblInformativo2: UILabel!
+    @IBOutlet weak var lblDescritivo2: UILabel!
+    @IBOutlet weak var lblInformativo3: UILabel!
+    @IBOutlet weak var lblDescritivo3: UILabel!
+    
+    @IBOutlet weak var viewPlacarPartida: UIView!
+    @IBOutlet weak var lblTituloPlacar: UILabel!
+    @IBOutlet weak var lblTime1: UILabel!
+    @IBOutlet weak var lblTime2: UILabel!
+    @IBOutlet weak var lblPlacarTime1: UILabel!
+    @IBOutlet weak var lblPlacarTime2: UILabel!
+    
+    @IBOutlet weak var btnNovoJogo: UIButton!
+    @IBOutlet weak var btnHistoricoPartidas: UIButton!
+    
+    @IBOutlet weak var lblFundacao: UILabel!
+    @IBOutlet weak var lblFundacaoValor: UILabel!
+    @IBOutlet weak var lblTecnico: UILabel!
+    @IBOutlet weak var lblTecnicoValor: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        self.setupLayout(screenName: "Time")
+        
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func setupLayout(screenName: String) {
+        
+    }
 
     /*
     // MARK: - Navigation
