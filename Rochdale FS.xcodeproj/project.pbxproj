@@ -65,16 +65,16 @@
 		216127502151403200127E14 /* Cadastro_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro_VC.swift; sourceTree = "<group>"; };
 		218AB6E32148354100991296 /* Historico_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico_TVC.swift; sourceTree = "<group>"; };
 		218AB6E42148354100991296 /* Historico_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Historico_TVC.xib; sourceTree = "<group>"; };
-		21AEB63321468EF80030CB4B /* Rochdale FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB63321468EF80030CB4B /* Rochdale FS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AEB63621468EF80030CB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21AEB63B21468EF80030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21AEB63D21468F060030CB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21AEB64021468F070030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21AEB64221468F070030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB64721468F080030CB4B /* Rochdale FSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCTests.swift; sourceTree = "<group>"; };
 		21AEB64D21468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AEB65221468F080030CB4B /* Rochdale FSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCUITests.swift; sourceTree = "<group>"; };
 		21AEB65821468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AEB6642146C26E0030CB4B /* Placar_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placar_TVC.swift; sourceTree = "<group>"; };
@@ -205,9 +205,9 @@
 		21AEB62A21468EF80030CB4B = {
 			isa = PBXGroup;
 			children = (
-				21AEB63521468EF80030CB4B /* Rochdale FC */,
-				21AEB64A21468F080030CB4B /* Rochdale FCTests */,
-				21AEB65521468F080030CB4B /* Rochdale FCUITests */,
+				21AEB63521468EF80030CB4B /* Rochdale FS */,
+				21AEB64A21468F080030CB4B /* Rochdale FSTests */,
+				21AEB65521468F080030CB4B /* Rochdale FSUITests */,
 				21AEB63421468EF80030CB4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,14 +215,14 @@
 		21AEB63421468EF80030CB4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21AEB63321468EF80030CB4B /* Rochdale FC.app */,
-				21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */,
-				21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */,
+				21AEB63321468EF80030CB4B /* Rochdale FS.app */,
+				21AEB64721468F080030CB4B /* Rochdale FSTests.xctest */,
+				21AEB65221468F080030CB4B /* Rochdale FSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21AEB63521468EF80030CB4B /* Rochdale FC */ = {
+		21AEB63521468EF80030CB4B /* Rochdale FS */ = {
 			isa = PBXGroup;
 			children = (
 				21AEB63621468EF80030CB4B /* AppDelegate.swift */,
@@ -236,25 +236,25 @@
 				21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */,
 				21AEB64221468F070030CB4B /* Info.plist */,
 			);
-			path = "Rochdale FC";
+			path = "Rochdale FS";
 			sourceTree = "<group>";
 		};
-		21AEB64A21468F080030CB4B /* Rochdale FCTests */ = {
+		21AEB64A21468F080030CB4B /* Rochdale FSTests */ = {
 			isa = PBXGroup;
 			children = (
 				21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */,
 				21AEB64D21468F080030CB4B /* Info.plist */,
 			);
-			path = "Rochdale FCTests";
+			path = "Rochdale FSTests";
 			sourceTree = "<group>";
 		};
-		21AEB65521468F080030CB4B /* Rochdale FCUITests */ = {
+		21AEB65521468F080030CB4B /* Rochdale FSUITests */ = {
 			isa = PBXGroup;
 			children = (
 				21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */,
 				21AEB65821468F080030CB4B /* Info.plist */,
 			);
-			path = "Rochdale FCUITests";
+			path = "Rochdale FSUITests";
 			sourceTree = "<group>";
 		};
 		21B91057214BFEDC00424D24 /* Escalação */ = {
@@ -287,9 +287,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21AEB63221468EF80030CB4B /* Rochdale FC */ = {
+		21AEB63221468EF80030CB4B /* Rochdale FS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FC" */;
+			buildConfigurationList = 21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FS" */;
 			buildPhases = (
 				21AEB62F21468EF80030CB4B /* Sources */,
 				21AEB63021468EF80030CB4B /* Frameworks */,
@@ -299,14 +299,14 @@
 			);
 			dependencies = (
 			);
-			name = "Rochdale FC";
+			name = "Rochdale FS";
 			productName = "Rochdale FC";
-			productReference = 21AEB63321468EF80030CB4B /* Rochdale FC.app */;
+			productReference = 21AEB63321468EF80030CB4B /* Rochdale FS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		21AEB64621468F080030CB4B /* Rochdale FCTests */ = {
+		21AEB64621468F080030CB4B /* Rochdale FSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCTests" */;
+			buildConfigurationList = 21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FSTests" */;
 			buildPhases = (
 				21AEB64321468F080030CB4B /* Sources */,
 				21AEB64421468F080030CB4B /* Frameworks */,
@@ -317,14 +317,14 @@
 			dependencies = (
 				21AEB64921468F080030CB4B /* PBXTargetDependency */,
 			);
-			name = "Rochdale FCTests";
+			name = "Rochdale FSTests";
 			productName = "Rochdale FCTests";
-			productReference = 21AEB64721468F080030CB4B /* Rochdale FCTests.xctest */;
+			productReference = 21AEB64721468F080030CB4B /* Rochdale FSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		21AEB65121468F080030CB4B /* Rochdale FCUITests */ = {
+		21AEB65121468F080030CB4B /* Rochdale FSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCUITests" */;
+			buildConfigurationList = 21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FSUITests" */;
 			buildPhases = (
 				21AEB64E21468F080030CB4B /* Sources */,
 				21AEB64F21468F080030CB4B /* Frameworks */,
@@ -335,9 +335,9 @@
 			dependencies = (
 				21AEB65421468F080030CB4B /* PBXTargetDependency */,
 			);
-			name = "Rochdale FCUITests";
+			name = "Rochdale FSUITests";
 			productName = "Rochdale FCUITests";
-			productReference = 21AEB65221468F080030CB4B /* Rochdale FCUITests.xctest */;
+			productReference = 21AEB65221468F080030CB4B /* Rochdale FSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -363,7 +363,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FC" */;
+			buildConfigurationList = 21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -376,9 +376,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21AEB63221468EF80030CB4B /* Rochdale FC */,
-				21AEB64621468F080030CB4B /* Rochdale FCTests */,
-				21AEB65121468F080030CB4B /* Rochdale FCUITests */,
+				21AEB63221468EF80030CB4B /* Rochdale FS */,
+				21AEB64621468F080030CB4B /* Rochdale FSTests */,
+				21AEB65121468F080030CB4B /* Rochdale FSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -459,12 +459,12 @@
 /* Begin PBXTargetDependency section */
 		21AEB64921468F080030CB4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 21AEB63221468EF80030CB4B /* Rochdale FC */;
+			target = 21AEB63221468EF80030CB4B /* Rochdale FS */;
 			targetProxy = 21AEB64821468F080030CB4B /* PBXContainerItemProxy */;
 		};
 		21AEB65421468F080030CB4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 21AEB63221468EF80030CB4B /* Rochdale FC */;
+			target = 21AEB63221468EF80030CB4B /* Rochdale FS */;
 			targetProxy = 21AEB65321468F080030CB4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -609,13 +609,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FC/Info.plist";
+				INFOPLIST_FILE = "Rochdale FS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FC";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -628,13 +628,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FC/Info.plist";
+				INFOPLIST_FILE = "Rochdale FS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FC";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -658,7 +658,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FC.app/Rochdale FC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FS.app/Rochdale FS";
 			};
 			name = Debug;
 		};
@@ -679,7 +679,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FC.app/Rochdale FC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FS.app/Rochdale FS";
 			};
 			name = Release;
 		};
@@ -726,7 +726,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FC" */ = {
+		21AEB62E21468EF80030CB4B /* Build configuration list for PBXProject "Rochdale FS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AEB65921468F080030CB4B /* Debug */,
@@ -735,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FC" */ = {
+		21AEB65B21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AEB65C21468F080030CB4B /* Debug */,
@@ -744,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCTests" */ = {
+		21AEB65E21468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AEB65F21468F080030CB4B /* Debug */,
@@ -753,7 +753,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FCUITests" */ = {
+		21AEB66121468F080030CB4B /* Build configuration list for PBXNativeTarget "Rochdale FSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AEB66221468F080030CB4B /* Debug */,
