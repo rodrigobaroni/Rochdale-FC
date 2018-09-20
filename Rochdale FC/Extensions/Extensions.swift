@@ -11,11 +11,11 @@ import UIKit
 
 extension UILabel {
     
-    func setupLabel(){
-        //self.font = UIFont(name: "", size: <#T##CGFloat#>)
-        
-    }
-    
+//    func setupLabel(){
+//        //self.font = UIFont(name: "", size: <#T##CGFloat#>)
+//
+//    }
+//
 }
 
 extension UIView {
@@ -45,8 +45,8 @@ extension UIImageView {
     
     func setupImgView(){
         self.layer.cornerRadius = 8.0
-        self.layer.borderWidth = 0.0
-        self.layer.borderColor = UIColor.clear.cgColor
+        self.layer.borderWidth = 0.5
+        self.layer.borderColor = UIColor.black.cgColor
         
     }
     

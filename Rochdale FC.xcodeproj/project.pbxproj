@@ -16,6 +16,8 @@
 		214B0906214ACC73006223DE /* Evento_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0905214ACC73006223DE /* Evento_VC.swift */; };
 		214B0909214ACCCA006223DE /* Escalacao_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B0908214ACCCA006223DE /* Escalacao_VC.swift */; };
 		214B090B214ACCF1006223DE /* JogadorPerfil_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */; };
+		2161274F2151401000127E14 /* Inicio_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161274E2151401000127E14 /* Inicio_VC.swift */; };
+		216127512151403200127E14 /* Cadastro_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216127502151403200127E14 /* Cadastro_VC.swift */; };
 		218AB6E52148354100991296 /* Historico_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AB6E32148354100991296 /* Historico_TVC.swift */; };
 		218AB6E62148354100991296 /* Historico_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218AB6E42148354100991296 /* Historico_TVC.xib */; };
 		21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB63621468EF80030CB4B /* AppDelegate.swift */; };
@@ -59,6 +61,8 @@
 		214B0905214ACC73006223DE /* Evento_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento_VC.swift; sourceTree = "<group>"; };
 		214B0908214ACCCA006223DE /* Escalacao_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escalacao_VC.swift; sourceTree = "<group>"; };
 		214B090A214ACCF1006223DE /* JogadorPerfil_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogadorPerfil_VC.swift; sourceTree = "<group>"; };
+		2161274E2151401000127E14 /* Inicio_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio_VC.swift; sourceTree = "<group>"; };
+		216127502151403200127E14 /* Cadastro_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro_VC.swift; sourceTree = "<group>"; };
 		218AB6E32148354100991296 /* Historico_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico_TVC.swift; sourceTree = "<group>"; };
 		218AB6E42148354100991296 /* Historico_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Historico_TVC.xib; sourceTree = "<group>"; };
 		21AEB63321468EF80030CB4B /* Rochdale FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rochdale FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,7 @@
 		214B08F2214AC8F6006223DE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2161274D21513FF300127E14 /* Inicio */,
 				214B0902214ACC40006223DE /* Time */,
 				214B0907214ACC78006223DE /* Agenda */,
 				21B91057214BFEDC00424D24 /* Escalação */,
@@ -186,6 +191,15 @@
 				214B0905214ACC73006223DE /* Evento_VC.swift */,
 			);
 			path = Agenda;
+			sourceTree = "<group>";
+		};
+		2161274D21513FF300127E14 /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				2161274E2151401000127E14 /* Inicio_VC.swift */,
+				216127502151403200127E14 /* Cadastro_VC.swift */,
+			);
+			path = Inicio;
 			sourceTree = "<group>";
 		};
 		21AEB62A21468EF80030CB4B = {
@@ -410,11 +424,13 @@
 				214B0904214ACC5E006223DE /* Agenda_VC.swift in Sources */,
 				214B0909214ACCCA006223DE /* Escalacao_VC.swift in Sources */,
 				214B0901214ACC30006223DE /* PlacarHistorico_VC.swift in Sources */,
+				2161274F2151401000127E14 /* Inicio_VC.swift in Sources */,
 				214B0906214ACC73006223DE /* Evento_VC.swift in Sources */,
 				21B9105C214C363700424D24 /* ModelViewController.swift in Sources */,
 				214B08FB214AC9A2006223DE /* Placar_VC.swift in Sources */,
 				218AB6E52148354100991296 /* Historico_TVC.swift in Sources */,
 				21E81F4E21501BB400F32C02 /* Extensions.swift in Sources */,
+				216127512151403200127E14 /* Cadastro_VC.swift in Sources */,
 				214B090B214ACCF1006223DE /* JogadorPerfil_VC.swift in Sources */,
 				21B91056214BFED600424D24 /* PDF_VC.swift in Sources */,
 				21AEB63721468EF80030CB4B /* AppDelegate.swift in Sources */,

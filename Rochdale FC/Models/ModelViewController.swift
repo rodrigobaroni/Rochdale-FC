@@ -11,9 +11,7 @@ import UIKit
 open class ModelViewController: UIViewController {
 
     open func setupLayout(screenName: String){
-    
         self.title = screenName
-        self.hideKeyboardWhenTappedAround()
     }
 
 }
