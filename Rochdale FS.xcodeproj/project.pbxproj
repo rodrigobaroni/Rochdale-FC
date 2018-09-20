@@ -24,8 +24,8 @@
 		21AEB63C21468EF80030CB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63A21468EF80030CB4B /* Main.storyboard */; };
 		21AEB63E21468F060030CB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63D21468F060030CB4B /* Assets.xcassets */; };
 		21AEB64121468F070030CB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB63F21468F070030CB4B /* LaunchScreen.storyboard */; };
-		21AEB64C21468F080030CB4B /* Rochdale_FCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */; };
-		21AEB65721468F080030CB4B /* Rochdale_FCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */; };
+		21AEB64C21468F080030CB4B /* Rochdale_FSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB64B21468F080030CB4B /* Rochdale_FSTests.swift */; };
+		21AEB65721468F080030CB4B /* Rochdale_FSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB65621468F080030CB4B /* Rochdale_FSUITests.swift */; };
 		21AEB6662146C26E0030CB4B /* Placar_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB6642146C26E0030CB4B /* Placar_TVC.swift */; };
 		21AEB6672146C26E0030CB4B /* Placar_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AEB6652146C26E0030CB4B /* Placar_TVC.xib */; };
 		21B91056214BFED600424D24 /* PDF_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B91055214BFED600424D24 /* PDF_VC.swift */; };
@@ -72,10 +72,10 @@
 		21AEB64021468F070030CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21AEB64221468F070030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AEB64721468F080030CB4B /* Rochdale FSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCTests.swift; sourceTree = "<group>"; };
+		21AEB64B21468F080030CB4B /* Rochdale_FSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FSTests.swift; sourceTree = "<group>"; };
 		21AEB64D21468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AEB65221468F080030CB4B /* Rochdale FSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rochdale FSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FCUITests.swift; sourceTree = "<group>"; };
+		21AEB65621468F080030CB4B /* Rochdale_FSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rochdale_FSUITests.swift; sourceTree = "<group>"; };
 		21AEB65821468F080030CB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AEB6642146C26E0030CB4B /* Placar_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placar_TVC.swift; sourceTree = "<group>"; };
 		21AEB6652146C26E0030CB4B /* Placar_TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Placar_TVC.xib; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		21AEB64A21468F080030CB4B /* Rochdale FSTests */ = {
 			isa = PBXGroup;
 			children = (
-				21AEB64B21468F080030CB4B /* Rochdale_FCTests.swift */,
+				21AEB64B21468F080030CB4B /* Rochdale_FSTests.swift */,
 				21AEB64D21468F080030CB4B /* Info.plist */,
 			);
 			path = "Rochdale FSTests";
@@ -251,7 +251,7 @@
 		21AEB65521468F080030CB4B /* Rochdale FSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				21AEB65621468F080030CB4B /* Rochdale_FCUITests.swift */,
+				21AEB65621468F080030CB4B /* Rochdale_FSUITests.swift */,
 				21AEB65821468F080030CB4B /* Info.plist */,
 			);
 			path = "Rochdale FSUITests";
@@ -352,13 +352,16 @@
 				TargetAttributes = {
 					21AEB63221468EF80030CB4B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					21AEB64621468F080030CB4B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 21AEB63221468EF80030CB4B;
 					};
 					21AEB65121468F080030CB4B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 21AEB63221468EF80030CB4B;
 					};
 				};
@@ -442,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AEB64C21468F080030CB4B /* Rochdale_FCTests.swift in Sources */,
+				21AEB64C21468F080030CB4B /* Rochdale_FSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AEB65721468F080030CB4B /* Rochdale_FCUITests.swift in Sources */,
+				21AEB65721468F080030CB4B /* Rochdale_FSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,9 +618,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FS";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-Fc2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -634,9 +637,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FS";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-Fc2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -648,15 +651,15 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FCTests/Info.plist";
+				INFOPLIST_FILE = "Rochdale FSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FS.app/Rochdale FS";
 			};
@@ -669,15 +672,15 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FCTests/Info.plist";
+				INFOPLIST_FILE = "Rochdale FSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rochdale FS.app/Rochdale FS";
 			};
@@ -689,15 +692,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FCUITests/Info.plist";
+				INFOPLIST_FILE = "Rochdale FSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Rochdale FC";
 			};
@@ -709,15 +712,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
-				INFOPLIST_FILE = "Rochdale FCUITests/Info.plist";
+				INFOPLIST_FILE = "Rochdale FSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FCUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Rochdale-FSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Rochdale FC";
 			};
